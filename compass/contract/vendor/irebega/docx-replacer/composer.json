@@ -1,0 +1,35 @@
+{
+  "name": "irebega/docx-replacer",
+  "description": "PHP extension that allow you replace text to text or text to image in DOCX file",
+  "keywords": [
+    "php",
+    "docx",
+    "replace"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Igor Rebega",
+      "email": "igorrebega@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "ext-zip": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "IRebega\\DocxReplacer\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "IRebega\\DocxReplacer\\Tests\\": "tests"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require-dev": {
+    "phpunit/phpunit": "^8"
+  }
+}

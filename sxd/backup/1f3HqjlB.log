@@ -1,0 +1,5 @@
+2020.04.04 09:20:50	1	Начало импорта БД `admin_compass`
+2020.04.04 09:20:50	1	Файл: cityservice_uz_2020-04-04_14-19-07.sql.gz
+2020.04.04 09:20:50	1	Установлена кодировка соединения: `binary`
+2020.04.04 09:20:50	1	Импорт таблицы `accept_notifications`
+2020.04.04 09:20:50	4	MySQL Error: Invalid default value for \'notification_time\' (/home/admin/web/vosxod.uz/public_html/sxd/index.php:1594)

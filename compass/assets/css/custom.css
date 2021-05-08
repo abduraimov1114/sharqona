@@ -1,0 +1,218 @@
+
+
+fieldset {
+  border: 1px solid #602cb5 !important;
+  margin-bottom: 24px;
+  padding: 10px;
+  border-radius:10px;
+  padding-left:10px!important;
+}   
+legend {
+  background: #602cb5;
+  color: white;
+  width: 32%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px 5px 5px 10px;
+  cursor: pointer;
+}
+fieldset .form-control[disabled] {
+    background-color: transparent;
+}
+.action-btn-wrapper {
+  margin-top: 16px;
+}
+
+.code {
+  margin: 0px 0px 5px;
+  display: none;
+  border-radius: 5px;
+  border: 1px solid #21a9e1;
+}
+
+.nameactive {
+  color: blue;
+  font-weight: 800;
+}
+
+.usdactive {
+  color: red;
+  font-weight: 800;
+}
+
+.storageactive {
+  color: green;
+  font-weight: 800;
+}
+
+
+.sticky {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.sticky h4 {
+  animation: lightfight 1.5s linear infinite;
+}
+
+@keyframes lightfight {
+  0% {
+    background: red;
+  }
+  50% {
+    background: black;
+  }
+  100% {
+    background: red;
+  }
+}
+
+.marginostop {
+  margin-top: 3px;
+}
+
+.marginostop2 {
+  margin-top: 3px;
+}
+
+.marginostop3 {
+  margin-top: 3px;
+}
+
+.verticam, #verticam {
+  vertical-align: middle !important;
+}
+
+.dollar {
+  background-color: limegreen;
+  color: white;
+}
+
+.dollar:hover {
+  color: white;
+  transform: scale(1.1);
+}
+
+.sum {
+  background-color: #b90fa2;
+  color: white;
+}
+
+.sum:hover {
+  color: white;
+  transform: scale(1.1);
+}
+
+.servicecolor {
+  background: #00a651;
+  color: white;
+}
+
+.productcolor {
+  background: #21a9e1;
+  color: white;
+}
+
+.productsfield {
+  border: 2px solid #21a9e1 !important;
+}
+
+.servicefield {
+  border: 2px solid #00a651 !important;
+}
+
+.servicelegend {
+  background: #00a651;color: white;
+}
+
+.productlegend {
+  background: #21a9e1;color: white;
+}
+
+.organizations {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.tdalign {
+  vertical-align: middle!important;
+  text-align: center!important;
+}
+
+.prices th {
+  background: #f44336;
+  color: white;
+}
+
+.prices td input::-webkit-outer-spin-button,
+.prices td input::-webkit-inner-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}
+
+
+.prices tr, .prices th, .prices td {
+  border: 1px solid #ccc;
+  text-align: center;
+  padding: 10px;
+}
+
+.prices {
+  border-collapse: collapse;
+}
+
+.buttonlar {
+  display: flex;
+}
+
+.buttonlar button, .buttonlar a {
+  margin-right: 5px;
+}
+
+.storageinfo1, .storageinfo2 {
+  width: 50%;
+  font-style: italic;
+}
+
+.tabel {
+  color: #9E9E9E;
+  font-weight: 800;
+}
+
+.payment {
+  background: #f44336;
+  color: white;
+}
+
+.payment_img {
+  width: 50px;
+  border: 2px solid white;
+  border-radius: 50%;
+  transition: transform 0.2s linear;
+}
+
+.payment_img:hover {
+  transform: scale(1.1);
+}
+
+.lenta {
+  height: 12px;
+}
+
+.lenta::before {
+    content: '';
+    display: block;
+    width: 25px;
+    height: 12px;
+    background: royalblue;
+    transform: skew(-50deg);
+    position: relative;
+    top: 0;
+    left: -8px;
+}
+
+.mybutton {
+    margin: 2px;
+    text-transform: lowercase;
+}

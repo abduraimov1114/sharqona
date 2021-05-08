@@ -1,0 +1,16 @@
+Sat, 04 Apr 2020 09:20:50 +0000
+----------
+CREATE TABLE `accept_notifications` (
+  `notification_id` int(11) NOT NULL AUTO_INCREMENT,
+  `buyer_id` int(11) NOT NULL,
+  `client_name` varchar(255) NOT NULL,
+  `client_number` varchar(255) NOT NULL,
+  `notification_desc` text NOT NULL,
+  `total` varchar(255) NOT NULL,
+  `payment_type` varchar(255) NOT NULL,
+  `notification_storage` int(11) NOT NULL,
+  `notification_time` datetime NOT NULL DEFAULT current_timestamp(),
+  `notification_status` int(11) NOT NULL DEFAULT 0,
+  `notification_user` varchar(255) NOT NULL,
+  PRIMARY KEY (`notification_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=43 DEFAULT CHARSET=utf8
