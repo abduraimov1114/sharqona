@@ -44,7 +44,7 @@ require_once 'db.php';
 						$_SESSION['ses_user_name'] = $db_user_name;
 						$_SESSION['ses_user_role'] = $db_user_role;
 						$_SESSION['ses_user_image'] = $db_user_image;
-						header("location: /compass");
+						header("location: /sharqona");
 					}
 
 					else {
